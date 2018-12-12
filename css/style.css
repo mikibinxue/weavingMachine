@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600,600i');
+
+html {
+  /* 1 */
+  font-family: Crimson Text;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  letter-spacing: 2px;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 3 */
+  background: #fff;
+  color: #666;
+}
+body{
+  padding-left: 0vh;
+  padding-right: 0vh;
+  margin-left: 0vh;
+  margin-right: 0vh;
+}
+h1{
+  font-family: 'Crimson Text', serif;
+}
+h3{
+  font-family: 'Crimson Text', serif;
+  font-size: 2.5vw;
+  /* text-align: center; */
+
+  color: #000000;
+}
+
+h4{
+  font-family: 'Crimson Text', serif;
+  font-size: 1.5vw;
+  text-align: center;
+
+  color: #000000;
+}
+
+p{
+  font-family: 'Crimson Text', serif;
+  font-size: 1vw;
+  text-align: left;
+
+  color: #000000;
+
+}
+
+.projectBox{
+  margin:0vh;
+  padding:0vh;
+  height:20vw;
+}
+
+.projectBox.green:hover{
+  border: 2px solid #219653;
+  box-sizing: border-box;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.uk-background-cover{
+  filter: blur(10px);
+}
+
+.uk-background-cover:hover{
+  filter: blur(0px);
+}
+
+.sticky-header{
+  background-color: white;
+  padding-top: 5vw;
+  padding-bottom: 5vw;
+
+}
+
+.left{
+    background: #EBF7F0;
+}
+
+.left,
+.right {
+    overflow: auto;
+    height: auto;
+    overflow: scroll;
+    max-height:100vh;
+    padding: 0vh;
+    margin: 0vh;
+}
+/*Entirely optional – just wanted to remove the scrollbar on WebKit browsers as I find them ugly*/
+.left::-webkit-scrollbar,
+.right::-webkit-scrollbar {
+    display: none;
+}
