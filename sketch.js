@@ -385,5 +385,5 @@ this.m4 = math.multiply(temp1,this.m3);
 
 
 function savePattern(){
-  saveCanvas('myPattern', 'jpg');
+  saveCanvas('myPattern', 'png');
 }
